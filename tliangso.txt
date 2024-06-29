@@ -82,3 +82,25 @@ P       "Public speaking is very easy."
         "9"
 o       "opukmq"
 4       
+
+Public speaking is very easy.
+1 2 6 24 120 720
+1 b 214
+9
+opukmq
+4 2 6 3 1 5 
+
+Tried:
+Publicspeakingisveryeasy.126241207201b2149opukmq426315
+Publicspeakingisveryeasy.126241207202b7559opukmq426315
+Publicspeakingisveryeasy.126241207207b5249opukmq426315
+Publicspeakingisveryeasy.126241207201b2149opukmq426135
+Publicspeakingisveryeasy.126241207202b7559opukmq426135
+Publicspeakingisveryeasy.126241207207b5249opukmq426135
+Publicspeakingisveryeasy.126241207201b2149opekmq426315
+Publicspeakingisveryeasy.126241207202b7559opekmq426315
+Publicspeakingisveryeasy.126241207207b5249opekmq426315
+austinpowers
+
+New:
+Publicspeakingisveryeasy.126241207201b2149opekmq426135
