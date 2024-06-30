@@ -39,6 +39,8 @@ For ease of use we add this record to the `/etc/hosts` file
 ```
 using gobuster with some common dir name wordlist we found
 
+https://github.com/digination/dirbuster-ng/blob/master/wordlists/common.txt
+
 port 80:
 ```
 ===============================================================

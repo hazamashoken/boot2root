@@ -1,16 +1,12 @@
 import itertools
 import subprocess
 
-# Set of remaining values
 remaining_values = [1, 2, 3, 5, 6]
 
-# Generate all permutations of the remaining values
 permutations = list(itertools.permutations(remaining_values))
 
-# Add 4 as the first element to each permutation
 solutions = [[4] + list(p) for p in permutations]
 
-# Function to call the bomb binary with a given solution
 def call_bomb(solution, i):
     solution_str = ' '.join(map(str, solution))
     ret = """Public speaking is very easy.
@@ -31,6 +27,5 @@ opukmq
     except subprocess.CalledProcessError as e:
         print(f"Failed to run bomb with solution {solution_str}: {e}")
 
-# Call the bomb binary for each solution
 for i, solution in enumerate(solutions):
     call_bomb(solution, i)
