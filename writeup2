@@ -1,6 +1,11 @@
 ### Dirty cow
 by using the `linux-expoit-suggestor.sh` we found some interesting expliot that can be done on the server.
 
+https://github.com/The-Z-Labs/linux-exploit-suggester
+```sh
+wget https://raw.githubusercontent.com/mzet-/linux-exploit-suggester/master/linux-exploit-suggester.sh -O les.sh
+```
+
 https://dirtycow.ninja/
 
 Dirty cow
